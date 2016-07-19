@@ -27,4 +27,11 @@ sub _hdlr_customfields_by_basename {
     $out;
 }
 
+sub _hdlr_customfield_options {
+    my ($ctx) = @_;
+    my $field = $ctx->stash('field')
+        or return _no_field($ctx);
+    return $field->options;
+}
+
 1;

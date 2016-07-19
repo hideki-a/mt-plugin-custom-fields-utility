@@ -9,3 +9,5 @@ description: カスタムフィールドの操作を補助します。
 tags:
   block:
     EntryCustomFieldsByBasename: $CustomFieldsUtility::CustomFieldsUtility::Tags::_hdlr_customfields_by_basename
+  function:
+    CustomFieldOptions: $CustomFieldsUtility::CustomFieldsUtility::Tags::_hdlr_customfield_options
